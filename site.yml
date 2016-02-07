@@ -4,5 +4,4 @@
   roles:
     - role: common
     - role: git
-    #- role: nodejs
-    #  sudo: yes
+    - role: nodejs
