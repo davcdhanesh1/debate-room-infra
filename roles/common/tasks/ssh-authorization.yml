@@ -1,3 +1,0 @@
----
-- name: Add authorized SSH key to target machine
-  authorized_key: user=vagrant key="{{ lookup('file',"~/.ssh/id_rsa.pub") }}"

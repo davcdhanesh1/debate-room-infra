@@ -1,7 +1,0 @@
----
-- hosts: local-dev-machine
- 
-  roles:
-    - role: common
-    - role: git
-    - role: nodejs
