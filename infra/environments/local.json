@@ -1,0 +1,6 @@
+{
+  "name": "local",
+  "description": "A local environment for development",
+  "chef_type": "environment",
+  "json_class": "Chef::Environment"
+}
