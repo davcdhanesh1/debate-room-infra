@@ -6,7 +6,4 @@
 #
 # All rights reserved - Do Not Redistribute
 
-
-yum_package 'epel-release'
-yum_package 'nodejs'
-yum_package 'npm'
+include_recipe 'web-server::install-nodejs'
