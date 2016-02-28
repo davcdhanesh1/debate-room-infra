@@ -1,9 +1,0 @@
-{
-  "name": "web_server",
-  "description": "A role to configure web server on a node",
-  "chef_type": "role",
-  "json_class": "Chef::Role",
-  "run_list": [
-    "recipe[web-server]"
-  ]
-}

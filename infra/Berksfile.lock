@@ -1,0 +1,5 @@
+DEPENDENCIES
+  iptables (~> 2.2.0)
+
+GRAPH
+  iptables (2.2.0)

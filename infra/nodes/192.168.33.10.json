@@ -2,6 +2,6 @@
   "name": "192.168.33.10",
   "chef_environment": "local",
   "run_list": [
-    "role[web_server]"
+    "role[web-server]"
   ]
 }

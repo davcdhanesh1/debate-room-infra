@@ -13,6 +13,7 @@ Vagrant.configure(2) do |config|
   config.vm.define box_name do |debate_room_dev_box|
     debate_room_dev_box.vm.network "private_network", ip: "192.168.33.10"
     debate_room_dev_box.vm.network "forwarded_port", host: 8000, guest: 8000
+    debate_room_dev_box.vm.network "forwarded_port", host: 8080, guest: 80
     debate_room_dev_box.vm.network "forwarded_port", host: 35729, guest: 35729
 
     debate_room_dev_box.vm.synced_folder "#{host_base_dir}/debate-room-backend", "#{guest_base_dir}/debate-room-backend"
