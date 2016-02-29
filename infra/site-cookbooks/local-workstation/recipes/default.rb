@@ -1,4 +1,2 @@
-include_recipe 'iptables'
-iptables_rule 'http' do
-    action :enable
-end
+include_recipe 'local-workstation::setup-iptable-rules'
+include_recipe 'local-workstation::install-npm-packages'

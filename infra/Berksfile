@@ -1,3 +1,4 @@
 source "https://supermarket.chef.io"
 
 cookbook 'iptables', '~> 2.2.0'
+cookbook 'nodejs', '~> 2.4.4'

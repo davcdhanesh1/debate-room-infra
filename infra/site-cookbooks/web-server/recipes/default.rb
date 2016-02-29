@@ -5,5 +5,5 @@ yum_package 'ca-certificates' do
   options "--disablerepo=epel"
 end
 
-include_recipe 'web-server::install-nodejs'
 include_recipe 'web-server::install-nginx'
+include_recipe 'web-server::install-nodejs'
