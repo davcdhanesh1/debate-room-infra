@@ -6,4 +6,3 @@ description      'Installs/Configures web-server'
 long_description 'Installs/Configures web-server'
 version          '0.1.0'
 
-depends 'iptables'
