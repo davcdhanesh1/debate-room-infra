@@ -2,7 +2,8 @@
   * Vagrant / Virtual box
   * do `vagrant up`
   * ChefDK / Use omnibus installer
-  * bundle install --path vendor/bundle
+  * do `bundle install`
   * do `cd infra`
-  * do `knife solo prepare -u vagrant -P vagrant vagrant@192.168.33.10 nodes/192.168.33.10.json`
+  * do `./bin/knife solo bootstrap -u vagrant -P vagrant vagrant@192.168.33.10 nodes/192.168.33.10.json`
+  * do `./bin/knife solo cook -u vagrant -P vagrant vagrant@192.168.33.10 nodes/192.168.33.10.json`
 
