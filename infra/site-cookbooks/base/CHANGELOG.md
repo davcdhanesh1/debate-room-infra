@@ -1,11 +1,11 @@
-local-workstation CHANGELOG
-===========================
+base CHANGELOG
+==============
 
-This file is used to list changes made in each version of the local-workstation cookbook.
+This file is used to list changes made in each version of the base cookbook.
 
 0.1.0
 -----
-- [your_name] - Initial release of local-workstation
+- [your_name] - Initial release of base
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
