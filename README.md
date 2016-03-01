@@ -1,7 +1,10 @@
 ### You need to install following on your local machine
-  1. ChefDK / Use omnibus installer
-  2. knife-solo gem
-  3. berkshelf
-  4. Knife-ec2
-
+  * Vagrant / Virtual box
+  * do `vagrant up`
+  * ChefDK / Use omnibus installer
+  * knife-solo gem
+  * berkshelf
+  * Knife-ec2
+  * do `cd infra`
+  * do `knife solo prepare -u vagrant -P vagrant vagrant@192.168.33.10 nodes/192.168.33.10.json`
 
